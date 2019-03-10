@@ -30,6 +30,8 @@
         }
     }
     document.getElementById("layout-content").setAttribute("class", "page-width");
+    document.getElementsByClassName('js_bd site-bd site-hd0')[0].style.width="102%";
+    document.getElementById('layout-content').style.width='102%';
 
     $(".header__inner").children().each(function(){
         if($(this).attr("class")!=="header__item--fr login-pan-mobile header--r1"){
