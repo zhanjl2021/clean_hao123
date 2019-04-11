@@ -13,7 +13,7 @@
 (function() {
     'use strict';
     var nodeIdArray = new Array("notice","noticeLink","pageMenu","hao123-govsite","layout-side","shortcut-box","box-famoussite","layout-hlbar","hao123-bottom");
-    var nodeClassArray = new Array("page-skinbtn","pic_icon","layout-inner","coolsiteresource-tip","headwise","login__item--vip","hotsearchCon");
+    var nodeClassArray = new Array("coolsites-wrapper","g-ib layout-right","common-sites","g-ib layout-left","headwise","login__item--vip","hotsearchCon");
     for(var i=0;i<nodeIdArray.length;i++){
         var node = document.getElementById(nodeIdArray[i]);
         if(node!==null){
